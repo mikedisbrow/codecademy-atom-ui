@@ -1,12 +1,12 @@
 @import "ui-variables";
 @tab-radius: 3px;
 @modified-icon-width: 10px;
-@tab-skew: 10deg;
+@tab-skew: 5deg;
 @tab-top-padding: 2px;
 @tab-bottom-border-height: 0;
-@tab-border: 0px solid @tab-border-color;
-@tab-bar-bottom-border-color: #111;
-@tab-max-width: 160px;
+@tab-border: 1px solid @tab-border-color;
+@tab-bar-bottom-border-color: transparent;
+@tab-max-width: 150px;
 
 .tab-bar {
   height: @tab-height + @tab-top-padding + @tab-bottom-border-height;
@@ -86,7 +86,7 @@
       color: @text-color;
 
       &:hover {
-        color: @text-color;
+        color: @text-color-highlight;
       }
     }
 
@@ -110,12 +110,12 @@
 
   .tab.active {
     z-index: 1;
-    color: @text-color;
+    color: @text-color-selected;
     box-shadow: inset -1px 1px 0 @tab-border-color, 4px -4px 4px rgba(0,0,0,.1);
 
     .close-icon {
       line-height: @tab-height;
-      color: @text-color;
+      color: @text-color-selected;
     }
 
     &, &:before, &:after {
@@ -133,16 +133,16 @@
   }
 
   .tab:hover {
-    color: @text-color;
+    color: @text-color-highlight;
   }
 
   .tab.active:hover .close-icon {
-    color: @text-color;
+    color: @text-color-highlight;
 
     &:hover {
-      color: inherit;
+      color: @text-color-highlight;
     }
-  }
+}
 
   .placeholder {
     height: @tab-height + @tab-top-padding + @tab-bottom-border-height;
