@@ -16,13 +16,3 @@ atom-text-editor[mini].is-focused, atom-text-editor[mini].is-focused::shadow {
   background-color: @input-background-color;
   .selection .region { background-color: desaturate(@background-color-info, 50%); }
 }
-
-// FIXME: these should go in syntax themes?
-atom-text-editor, atom-text-editor::shadow {
-  .atom-text-editor {
-    -webkit-box-shadow: 2px -2px 10px 2px #222;
-}
-  .gutter.drop-shadow {
-    -webkit-box-shadow: -2px 0 10px 2px #222;
-  }
-}
