@@ -1,10 +1,10 @@
 @import "ui-variables";
-@tab-radius: 3px;
+@tab-radius: 1px;
 @modified-icon-width: 10px;
-@tab-skew: 5deg;
-@tab-top-padding: 2px;
+@tab-skew: 0deg;
+@tab-top-padding: 0;
 @tab-bottom-border-height: 0;
-@tab-border: 1px solid @tab-border-color;
+@tab-border: 0 solid @tab-border-color;
 @tab-bar-bottom-border-color: transparent;
 @tab-max-width: 150px;
 
@@ -30,7 +30,7 @@
     left: 0;
     right: 0;
     background-color: @tab-background-color-active;
-    border-top: 1px solid @tab-border-color;
+    // border-top: 1px solid @tab-border-color;
     pointer-events: none;
   }
 
@@ -42,15 +42,13 @@
     line-height: @tab-height;
     padding: 0;
     margin: 0 20px 0 5px;
-    color: @text-color;
+    color: @text-color-subtle;
     font-size: @font-size;
     font-family: @font-family;
-
     transition: color .1s ease-in;
-    border: none;
 
     &, &:before, &:after {
-      background-image: -webkit-linear-gradient(top, lighten(#181F23, 7%), #181F23);
+      //background-image: -webkit-linear-gradient(top, lighten(#181F23, 7%), #181F23);
       height: @tab-height;
     }
 
@@ -65,17 +63,17 @@
     // left angled edge
     &:before {
       left: -14px;
-      border-top-left-radius: @tab-radius;
-      box-shadow: inset 1px 1px 0 @tab-border-color, -4px 0px 4px rgba(0,0,0,.1);
-      -webkit-transform: skewX(-@tab-skew);
+      //border-top-left-radius: @tab-radius;
+      //box-shadow: inset 1px 1px 0 @tab-border-color, -4px 0px 4px rgba(0,0,0,.1);
+      //-webkit-transform: skewX(-@tab-skew);
     }
 
     // right angled edge
     &:after {
       right: -14px;
-      border-top-right-radius: @tab-radius;
-      box-shadow: inset -1px 1px 0 @tab-border-color, 4px 0px 4px rgba(0,0,0,.1);
-      -webkit-transform: skewX(@tab-skew);
+      //border-top-right-radius: @tab-radius;
+      //box-shadow: inset -1px 1px 0 @tab-border-color, 4px 0px 4px rgba(0,0,0,.1);
+      //-webkit-transform: skewX(@tab-skew);
     }
 
     .close-icon {
@@ -83,10 +81,10 @@
       z-index: 3;
       text-align: right;
       line-height: @tab-height;
-      color: @text-color;
+      color: @text-color-subtle;
 
       &:hover {
-        color: @text-color-highlight;
+        color: @text-color-selected;
       }
     }
 
@@ -133,14 +131,14 @@
   }
 
   .tab:hover {
-    color: @text-color-highlight;
+    color: @text-color-selected;
   }
 
   .tab.active:hover .close-icon {
-    color: @text-color-highlight;
+    color: @text-color-selected;
 
     &:hover {
-      color: @text-color-highlight;
+      color: @text-color-selected;
     }
 }
 
