@@ -5,14 +5,15 @@ h1,
 h2,
 h3 {
   line-height: 1em;
-  margin-bottom: 15px
+  margin-bottom: 15px;
 }
+
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.2em; }
 
 p {
-  line-height: 1.6;
+  line-height: 1.4;
   margin-bottom: 15px;
 }
 
@@ -51,10 +52,12 @@ code {
   .text(info);
   &:hover { color: @text-color-info; }
 }
+
 .text-warning {
   .text(warning);
   &:hover { color: @text-color-warning; }
 }
+
 .text-success {
   .text(success);
   &:hover { color: @text-color-success; }
@@ -79,6 +82,7 @@ code {
     padding: 1px 3px;
   }
 }
+
 .highlight-color(info, @background-color-info, @text-color-info);
 .highlight-color(warning, @background-color-warning, @text-color-warning);
 .highlight-color(error, @background-color-error, @text-color-error);
