@@ -2,7 +2,7 @@
 
 A dark, flat-ish UI theme for [Atom](http://www.atom.io) based on the color scheme used at [Codecademy](http://www.codecademy.com).
 
-Matching syntax highlighting theme available [here](https://www.github.com/mikedisbrow/codecademy-syntax).
+Matching syntax highlighting theme available [here](https://www.github.com/mikedisbrow/codecademy-atom-syntax).
 
 ### Screen Shots
 
