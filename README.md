@@ -6,8 +6,8 @@ Matching syntax highlighting theme available [here](https://www.github.com/miked
 
 ### Screen Shots
 
-[![Main](https://www.github.com/mikedisbrow/codecademy-atom-ui/screenshots/ui-one-small.jpg)](https://www.github.com/mikedisbrow/codecademy-atom-ui/screenshots/ui-one-big.jpg)
+[![Main](https://raw.githubusercontent.com/mikedisbrow/codecademy-atom-ui/master/screenshots/ui-one-small.jpg)](https://raw.githubusercontent.com/mikedisbrow/codecademy-atom-ui/master/screenshots/ui-one-big.jpg)
 
-[![Main](https://www.github.com/mikedisbrow/codecademy-atom-ui/screenshots/ui-two-small.jpg)](https://www.github.com/mikedisbrow/codecademy-atom-ui/screenshots/ui-two-big.jpg)
+[![Settings](https://raw.githubusercontent.com/mikedisbrow/codecademy-atom-ui/master/screenshots/ui-two-small.jpg)](https://raw.githubusercontent.com/mikedisbrow/codecademy-atom-ui/master/screenshots/ui-two-big.jpg)
 
-[![Main](https://www.github.com/mikedisbrow/codecademy-atom-ui/screenshots/ui-three-small.jpg)](https://www.github.com/mikedisbrow/codecademy-atom-ui/screenshots/ui-three-big.jpg)
+[![Command P](https://raw.githubusercontent.com/mikedisbrow/codecademy-atom-ui/master/screenshots/ui-three-small.jpg)](https://raw.githubusercontent.com/mikedisbrow/codecademy-atom-ui/master/screenshots/ui-three-big.jpg)
