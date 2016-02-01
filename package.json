@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "A dark, flat-ish UI theme, based on codecademy.com color scheme.",
   "license": "MIT",
-  "repository": "https://github.com/mikedisbrow/codecademy-dark-ui",
+  "repository": "https://github.com/mikedisbrow/codecademy-atom-ui",
   "engines": {
     "atom": ">0.40.0"
   }
