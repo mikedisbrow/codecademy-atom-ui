@@ -1,7 +1,7 @@
 {
   "name": "codecademy-atom-ui",
   "theme": "ui",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A dark, flat-ish UI theme, based on codecademy.com color scheme.",
   "keywords": [
     "ui",
